@@ -1,0 +1,24 @@
+body{
+    height: 60%;
+    width: 60%;
+}
+#banner{
+    background-color:darkcyan;
+    height: 60px;
+}
+
+#lista1{ 
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 20px;
+}
+#lista1 li{
+    display: inline;
+    padding-left: 10px ;
+    padding-right: 10px;
+    font-family: Arial;       
+}
+li:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
