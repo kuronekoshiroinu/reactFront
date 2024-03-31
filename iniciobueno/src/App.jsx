@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Toolbar />
         <Routes>
-          <Route path="/" element={<Navigate to ="/task"/>}/>
+          <Route path="/" element={<Navigate to ="/task"/>} />
           <Route path="/task" element={<TaskPage/>}/>
           <Route path="/task-create" element={<TaskFormPage/>}/>
           

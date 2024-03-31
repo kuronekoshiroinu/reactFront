@@ -1,24 +1,27 @@
-body{
-    height: 60%;
-    width: 60%;
-}
-#banner{
-    background-color:darkcyan;
-    height: 60px;
+#banner{   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b6b6b6
 }
 
 #lista1{ 
+   
     font-weight: bold;
     font-size: larger;
     padding-top: 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
 }
 #lista1 li{
-    display: inline;
-    padding-left: 10px ;
-    padding-right: 10px;
-    font-family: Arial;       
+    text-decoration: none;
+    color:#434750;
+    display : inline-block;
+    padding-left: 30px ;
+    padding-right: 30px;
+      
 }
-li:hover{
-    color: chartreuse;
+#lista1 li:hover{
+    background-color: #00913f;
+    color: #b6b6b6;
     cursor: pointer;
 }
