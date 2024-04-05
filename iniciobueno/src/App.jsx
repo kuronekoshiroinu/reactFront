@@ -16,7 +16,7 @@ function App() {
           <Route path="/task-create" element={<TaskFormPage/>}/>
           
         </Routes>
-        <Body />      
+              
       </BrowserRouter>  
         
   )
