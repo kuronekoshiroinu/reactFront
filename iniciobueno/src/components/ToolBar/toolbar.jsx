@@ -9,7 +9,7 @@ export function Toolbar(){
                 <Link to="/task" ><li> item 1 </li></Link>
                 <Link to ="/task-create"><li> item 2 </li></Link>
                 <Link to ="/task-create"><li> item 3 </li></Link>
-                <li> item 4 </li>
+                <Link to="/registro"> <li> item 4 </li></Link>
                 <li> item 5 </li>
             </ul>
         </div>
