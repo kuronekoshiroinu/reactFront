@@ -6,17 +6,6 @@ export function TaskFormPage(){
         console.log(data)
     })
     return(
-        <div>
-            <form onSubmit={onSubmit}>
-                <input type="text" 
-                placeholder="title" 
-                {...register("title", {required: true} )}/><br/>
-                <textarea rows="3" 
-                placeholder="description"
-                {...register("description",{required: true})}></textarea><br/>
-                <button>save</button>
-
-            </form>
-        </div>
+        <div>Cuerpaso 2 </div>
     )
 }

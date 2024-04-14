@@ -1,16 +1,16 @@
 import{Link} from "react-router-dom"
 
-import "./toolbar.css"
+// import "./toolbar.css"
 export function Toolbar(){
     return(
         
         <div id="banner"> 
-            <ul id="lista1">
+            <ul class="rounded-md shadow-sm bg-slate-500 m-4">
                 <Link to="/task" ><li> item 1 </li></Link>
                 <Link to ="/task-create"><li> item 2 </li></Link>
-                <Link to ="/task-create"><li> item 3 </li></Link>
-                <Link to="/registro"> <li> item 4 </li></Link>
-                <li> item 5 </li>
+                <Link to ="/user-register"><li> Usuarios </li></Link>
+                <li> NoHagoNada1 </li>
+                <li> NoHagoNada2 </li>
             </ul>
         </div>
     
